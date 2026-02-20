@@ -1,59 +1,58 @@
-💰 Smart Expense Tracker
+<h1 align="center">💰 Smart Expense Tracker</h1>
 
-A modern, interactive financial management web application built with React (Create React App), featuring dynamic income and expense tracking, real-time balance calculation, and a clean fintech-style dashboard interface.
+<p align="center">
+A modern financial management web application built using React (Create React App).
+Track income and expenses with real-time balance updates.
+</p>
 
-🌟 Features
-💵 Transaction Management
+---
 
-Add income transactions
+## 📌 Project Overview
 
-Add expense transactions
+Smart Expense Tracker is a dynamic web application that helps users manage personal finances efficiently.
 
-Delete transactions
+Users can:
+- Add income transactions
+- Add expense transactions
+- Delete transactions
+- View real-time balance updates
 
-Automatic UI refresh without page reload
+The UI updates instantly without page reload using React state management.
 
-📊 Financial Dashboard
+---
 
-Real-time balance calculation
+## 🌟 Features
 
-Total income tracking
+### 💵 Transaction Management
+- Add income transactions
+- Add expense transactions
+- Delete transactions
+- Automatic UI refresh
 
-Total expense tracking
+### 📊 Financial Summary
+- Real-time balance calculation
+- Total income tracking
+- Total expense tracking
 
-Dynamic state updates using React Hooks
+### 🎨 Modern UI
+- Gradient background
+- Glassmorphism dashboard
+- Responsive layout
+- Smooth hover effects
 
-🧠 State Management
+---
 
-React Functional Components
+## 🏗 Project Structure
 
-useState Hook
-
-Props-based component communication
-
-Immutable state updates
-
-🎨 Modern UI Design
-
-Gradient background
-
-Glassmorphism dashboard
-
-Responsive layout
-
-Smooth hover animations
-
-Clean typography
-
-📋 Project Structure
+```bash
 Smart-Expense-Tracker/
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── App.js                 # Main app component
-│   ├── index.js               # React entry point
+│   ├── App.js
+│   ├── index.js
 │   ├── styles/
-│   │   └── App.css            # Global styling
+│   │   └── App.css
 │   ├── components/
 │   │   ├── Header.js
 │   │   ├── Summary.js
@@ -62,114 +61,114 @@ Smart-Expense-Tracker/
 │   │   └── TransactionItem.js
 ├── package.json
 └── README.md
-⚙️ Tech Stack
 
-Frontend Framework: React 18+
-Build Tool: Create React App
-State Management: React Hooks
-Styling: CSS3
-Version Control: Git & GitHub
+## ⚙️ Tech Stack
 
-🚀 Getting Started
-Prerequisites
+- **Frontend Framework:** React 18+
+- **Build Tool:** Create React App
+- **State Management:** React Hooks (useState)
+- **Styling:** CSS3
+- **Version Control:** Git & GitHub
 
-Node.js (v16 or higher)
+---
 
-npm
+## 🚀 Getting Started
 
-Installation
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm
+
+---
+
+### Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/Sindhu2513/smart-expense-tracker.git
+```
 
 Navigate to the project directory:
 
+```bash
 cd smart-expense-tracker
+```
 
 Install dependencies:
 
+```bash
 npm install
+```
 
 Start the development server:
 
+```bash
 npm start
+```
 
 Application runs at:
 
+```
 http://localhost:3000
-🧮 Core Features Explained
-Transaction System
+```
 
-Transactions are stored in a state array using useState.
-New transactions are added immutably, ensuring proper React rendering.
+---
 
-Financial Calculation Logic
+## 🧠 Core Concepts Used
 
-filter() separates income and expense transactions
+- Functional Components
+- useState Hook
+- Props-based component communication
+- Conditional Rendering
+- JavaScript array methods (`map`, `filter`, `reduce`)
+- Component-based architecture
 
-reduce() calculates total income and total expense
+---
 
-Balance = Income − Expense
+## 📦 Dependencies
 
-UI updates instantly without page reload
+### Production
 
-Component Architecture
+- `react` – React library  
+- `react-dom` – React DOM rendering  
 
-The application follows a modular structure:
+### Development
 
-Header Component
+- `react-scripts` – Build tool for Create React App  
+- `eslint` – Linting tool  
 
-Summary Component
+---
 
-Transaction Form Component
+## 📝 Available Scripts
 
-Transaction List Component
-
-📦 Dependencies
-Production
-
-react – React library
-
-react-dom – React DOM rendering
-
-Development
-
-react-scripts – Build tool for Create React App
-
-eslint – Linting tool
-
-🔧 Configuration
-Create React App Configuration
-
-This project uses the standard Create React App configuration.
-You can customize build settings using:
-
-npm run build
-📝 Available Scripts
+```bash
 npm start        # Start development server
 npm run build    # Create production build
 npm test         # Run tests
 npm run eject    # Eject CRA configuration
-💡 Future Enhancements
+```
 
-LocalStorage persistence
+---
 
-Chart integration (Chart.js)
+## 💡 Future Enhancements
 
-Category filtering
+- LocalStorage data persistence
+- Chart integration (Chart.js)
+- Category filtering
+- Backend integration (Node.js + MongoDB)
+- Authentication system
+- Deployment to Vercel or Netlify
 
-Backend integration (Node.js + MongoDB)
+---
 
-Authentication system
+## 👩‍💻 Developer
 
-Deployment to Vercel / Netlify
+**Sindhu**  
+Java Full Stack Developer | React Enthusiast  
 
-👩‍💻 Developer
+---
 
-Sindhu
-Java Full Stack Developer | React Enthusiast
+## 📄 License
 
-📄 License
-
-This project is open-source and created for learning and training purposes.
+This project is open-source and created for learning and educational purposes.
