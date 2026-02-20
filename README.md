@@ -1,9 +1,9 @@
-##💰 Smart Expense Tracker
+💰 Smart Expense Tracker
 
 A modern, interactive financial management web application built with React (Create React App), featuring dynamic income and expense tracking, real-time balance calculation, and a clean fintech-style dashboard interface.
 
-##🌟 Features
-##💵 Transaction Management
+🌟 Features
+💵 Transaction Management
 
 Add income transactions
 
@@ -13,7 +13,7 @@ Delete transactions
 
 Automatic UI refresh without page reload
 
-##📊 Financial Dashboard
+📊 Financial Dashboard
 
 Real-time balance calculation
 
@@ -23,7 +23,7 @@ Total expense tracking
 
 Dynamic state updates using React Hooks
 
-##🧠 State Management
+🧠 State Management
 
 React Functional Components
 
@@ -33,7 +33,7 @@ Props-based component communication
 
 Immutable state updates
 
-##🎨 Modern UI Design
+🎨 Modern UI Design
 
 Gradient background
 
@@ -45,7 +45,7 @@ Smooth hover animations
 
 Clean typography
 
-##📋 Project Structure
+📋 Project Structure
 Smart-Expense-Tracker/
 ├── public/
 │   └── index.html
@@ -62,7 +62,7 @@ Smart-Expense-Tracker/
 │   │   └── TransactionItem.js
 ├── package.json
 └── README.md
-##⚙️ Tech Stack
+⚙️ Tech Stack
 
 Frontend Framework: React 18+
 Build Tool: Create React App
@@ -70,14 +70,14 @@ State Management: React Hooks
 Styling: CSS3
 Version Control: Git & GitHub
 
-##🚀 Getting Started
+🚀 Getting Started
 Prerequisites
 
 Node.js (v16 or higher)
 
 npm
 
-##Installation
+Installation
 
 Clone the repository:
 
@@ -98,8 +98,8 @@ npm start
 Application runs at:
 
 http://localhost:3000
-🧮 Core Logic Explained
-Transaction Handling
+🧮 Core Features Explained
+Transaction System
 
 Transactions are stored in a state array using useState.
 New transactions are added immutably, ensuring proper React rendering.
@@ -120,17 +120,37 @@ The application follows a modular structure:
 
 Header Component
 
-Summary component
+Summary Component
 
-Form component
+Transaction Form Component
 
-List component
+Transaction List Component
 
+📦 Dependencies
+Production
+
+react – React library
+
+react-dom – React DOM rendering
+
+Development
+
+react-scripts – Build tool for Create React App
+
+eslint – Linting tool
+
+🔧 Configuration
+Create React App Configuration
+
+This project uses the standard Create React App configuration.
+You can customize build settings using:
+
+npm run build
 📝 Available Scripts
-npm start       // Start development server
-npm run build   // Build for production
-npm test        // Run tests
-npm run eject   // Eject CRA configuration
+npm start        # Start development server
+npm run build    # Create production build
+npm test         # Run tests
+npm run eject    # Eject CRA configuration
 💡 Future Enhancements
 
 LocalStorage persistence
@@ -145,11 +165,11 @@ Authentication system
 
 Deployment to Vercel / Netlify
 
-##👩‍💻 Developer
+👩‍💻 Developer
 
 Sindhu
 Java Full Stack Developer | React Enthusiast
 
-##📄 License
+📄 License
 
 This project is open-source and created for learning and training purposes.
