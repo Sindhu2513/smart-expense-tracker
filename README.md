@@ -1,7 +1,6 @@
 💰 Smart Expense Tracker
 
-A modern, interactive financial management web application built using React (Create React App).
-The application allows users to manage income and expenses dynamically with real-time balance updates and a clean dashboard interface.
+A modern, interactive financial management web application built with React (Create React App), featuring dynamic income and expense tracking, real-time balance calculation, and a clean fintech-style dashboard interface.
 
 🌟 Features
 💵 Transaction Management
@@ -12,17 +11,17 @@ Add expense transactions
 
 Delete transactions
 
-Real-time UI updates
+Automatic UI refresh without page reload
 
 📊 Financial Dashboard
 
-Live total balance calculation
+Real-time balance calculation
 
 Total income tracking
 
 Total expense tracking
 
-Automatic UI refresh without page reload
+Dynamic state updates using React Hooks
 
 🧠 State Management
 
@@ -42,7 +41,7 @@ Glassmorphism dashboard
 
 Responsive layout
 
-Hover animations
+Smooth hover animations
 
 Clean typography
 
@@ -51,10 +50,10 @@ Smart-Expense-Tracker/
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── App.js
-│   ├── index.js
+│   ├── App.js                 # Main app component
+│   ├── index.js               # React entry point
 │   ├── styles/
-│   │   └── App.css
+│   │   └── App.css            # Global styling
 │   ├── components/
 │   │   ├── Header.js
 │   │   ├── Summary.js
@@ -65,7 +64,7 @@ Smart-Expense-Tracker/
 └── README.md
 ⚙️ Tech Stack
 
-Frontend Framework: React
+Frontend Framework: React 18+
 Build Tool: Create React App
 State Management: React Hooks
 Styling: CSS3
@@ -84,7 +83,7 @@ Clone the repository:
 
 git clone https://github.com/Sindhu2513/smart-expense-tracker.git
 
-Navigate to the project folder:
+Navigate to the project directory:
 
 cd smart-expense-tracker
 
@@ -99,36 +98,59 @@ npm start
 Application runs at:
 
 http://localhost:3000
-🧮 Core Logic Explained
-Transaction Handling
+🧮 Core Features Explained
+Transaction System
 
 Transactions are stored in a state array using useState.
+New transactions are added immutably, ensuring proper React rendering.
 
-Financial Calculation
+Financial Calculation Logic
 
-filter() separates income and expense
+filter() separates income and expense transactions
 
-reduce() calculates totals
+reduce() calculates total income and total expense
 
-Balance = Income - Expense
+Balance = Income − Expense
+
+UI updates instantly without page reload
 
 Component Architecture
 
-The application follows a modular component-based structure:
+The application follows a modular structure:
 
-Header component
+Header Component
 
-Summary component
+Summary Component
 
-Form component
+Transaction Form Component
 
-List component
+Transaction List Component
 
+📦 Dependencies
+Production
+
+react – React library
+
+react-dom – React DOM rendering
+
+Development
+
+react-scripts – Build tool for Create React App
+
+eslint – Linting tool
+
+🔧 Configuration
+Create React App Configuration
+
+This project uses the standard Create React App configuration.
+You can customize build settings using:
+
+npm run build
 📝 Available Scripts
-npm start       // Start development server
-npm run build   // Build for production
-npm test        // Run tests
-npm run eject   // Eject CRA configuration
+npm start        # Start development server
+npm run build    # Create production build
+npm test         # Run tests
+npm run eject    # Eject CRA configuration
 💡 Future Enhancements
 
 LocalStorage persistence
