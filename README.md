@@ -1,10 +1,10 @@
-💰 Smart Expense Tracker
+##💰 Smart Expense Tracker
 
 A modern, interactive financial management web application built using React (Create React App).
 The application allows users to manage income and expenses dynamically with real-time balance updates and a clean dashboard interface.
 
-🌟 Features
-💵 Transaction Management
+##🌟 Features
+##💵 Transaction Management
 
 Add income transactions
 
@@ -14,7 +14,7 @@ Delete transactions
 
 Real-time UI updates
 
-📊 Financial Dashboard
+##📊 Financial Dashboard
 
 Live total balance calculation
 
@@ -24,7 +24,7 @@ Total expense tracking
 
 Automatic UI refresh without page reload
 
-🧠 State Management
+##🧠 State Management
 
 React Functional Components
 
@@ -34,7 +34,7 @@ Props-based component communication
 
 Immutable state updates
 
-🎨 Modern UI Design
+##🎨 Modern UI Design
 
 Gradient background
 
@@ -46,7 +46,7 @@ Hover animations
 
 Clean typography
 
-📋 Project Structure
+##📋 Project Structure
 Smart-Expense-Tracker/
 ├── public/
 │   └── index.html
@@ -63,7 +63,7 @@ Smart-Expense-Tracker/
 │   │   └── TransactionItem.js
 ├── package.json
 └── README.md
-⚙️ Tech Stack
+##⚙️ Tech Stack
 
 Frontend Framework: React
 Build Tool: Create React App
@@ -71,14 +71,14 @@ State Management: React Hooks
 Styling: CSS3
 Version Control: Git & GitHub
 
-🚀 Getting Started
+##🚀 Getting Started
 Prerequisites
 
 Node.js (v16 or higher)
 
 npm
 
-Installation
+##Installation
 
 Clone the repository:
 
@@ -99,7 +99,7 @@ npm start
 Application runs at:
 
 http://localhost:3000
-🧮 Core Logic Explained
+##🧮 Core Logic Explained
 Transaction Handling
 
 Transactions are stored in a state array using useState.
@@ -124,12 +124,12 @@ Form component
 
 List component
 
-📝 Available Scripts
+##📝 Available Scripts
 npm start       // Start development server
 npm run build   // Build for production
 npm test        // Run tests
 npm run eject   // Eject CRA configuration
-💡 Future Enhancements
+##💡 Future Enhancements
 
 LocalStorage persistence
 
@@ -143,11 +143,11 @@ Authentication system
 
 Deployment to Vercel / Netlify
 
-👩‍💻 Developer
+##👩‍💻 Developer
 
 Sindhu
 Java Full Stack Developer | React Enthusiast
 
-📄 License
+##📄 License
 
 This project is open-source and created for learning and training purposes.
